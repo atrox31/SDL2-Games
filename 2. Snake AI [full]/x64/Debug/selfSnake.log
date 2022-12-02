@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\projekt\selfSnake\main.cpp(281,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  selfSnake.vcxproj -> D:\projekt\selfSnake\x64\Debug\selfSnake.exe

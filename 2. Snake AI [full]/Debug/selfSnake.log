@@ -1,0 +1,15 @@
+﻿main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_CreateWindow przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_DestroyWindow przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_PollEvent przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_CreateRenderer przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_SetRenderDrawColor przywołany w funkcji "void __cdecl DrawRect(int,int,int)" (?DrawRect@@YAXHHH@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_RenderClear przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_RenderFillRect przywołany w funkcji "void __cdecl DrawRect(int,int,int)" (?DrawRect@@YAXHHH@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_RenderPresent przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_DestroyRenderer przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_Init przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+main.obj : error LNK2019: nierozpoznany symbol zewnętrzny _SDL_Quit przywołany w funkcji "int __cdecl SDL_main(int,char *)" (?SDL_main@@YAHHPAD@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: nierozpoznany symbol zewnętrzny _main przywołany w funkcji "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\projekt\SDL2_SC\core\2.0.12\lib\x64\SDL2.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+D:\projekt\SDL2_SC\core\2.0.12\lib\x64\SDL2main.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+D:\projekt\selfSnake\Debug\selfSnake.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 12
